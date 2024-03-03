@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.movie_info {
+  display: flex;
+  position: relative;
+}
+.movie_info::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  width: 100vw;
+  height: 2px;
+  background-color: #3a3c3c4f;
+}
+
+.backLink {
+  margin-bottom: 5px;
+  width: fit-content;
+}
+.movieDescription {
+  padding-left: 10px;
+}
+.genres {
+  display: flex;
+  gap: 10px;
+}
+.aditionalInfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.aditionalInfo::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  width: 100vw;
+  height: 2px;
+  background-color: #3a3c3c4f;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 20px;
+}
