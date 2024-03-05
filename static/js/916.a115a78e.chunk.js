@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[916],{916:function(e,t,n){n.r(t);var r=n(689),h=n(184);t.default=function(){var e=(0,r.TH)().state.infoReviews;return e.length?(0,h.jsx)("ul",{children:e.map((function(e){return(0,h.jsxs)("li",{children:[(0,h.jsx)("h3",{children:e.author}),(0,h.jsx)("p",{children:e.content})]},e.id)}))}):(0,h.jsx)("h3",{children:"We don't have any reviews for this movie."})}}}]);
+//# sourceMappingURL=916.a115a78e.chunk.js.map
