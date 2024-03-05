@@ -24,7 +24,7 @@ const Movies = () => {
       }
     };
     fetch();
-  }, []);
+  }, [searchParams]);
 
   const onHandleSubmit = async e => {
     e.preventDefault();
